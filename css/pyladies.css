@@ -299,3 +299,35 @@ hr.dotted {
 #meetup a span {
     text-align: center;
 }
+
+/*************** Media Query Medium Screen ***************/
+@media screen and (min-width: 1201px) {
+    #navbar-icon {
+        display: none;
+    }
+
+    section:not(.header) {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .container {
+        width: 800px;
+        margin: auto;
+    }
+
+    .navbar-menu {
+        display: flex;
+        height: fit-content;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-social {
+        bottom: initial;
+        left: 70%;
+    }
+
+}
