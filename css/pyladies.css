@@ -8,7 +8,14 @@ html, body {
     height: 100vh;
 }
 
-.content, .header {
+.content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+
+.header {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -261,8 +268,8 @@ hr.dotted {
     flex-direction: column;
 }
 
-.meetup h3 {
-    width: 90%;
+.meetup h3, .twitter h3 {
+    /* width: 90%; */
     text-align: center;
     margin: 2rem auto;
 }
@@ -302,18 +309,51 @@ hr.dotted {
 
 /*************** Media Query Medium Screen ***************/
 @media screen and (min-width: 1201px) {
+    .content {
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "header header header header"
+            ". events news ."
+            ". resources blog ."
+            ". contacts contacts .";
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    #events {
+        grid-area: events;
+    }
+
+    #news {
+        grid-area: news;
+    }
+
+    #resources {
+        grid-area: resources;
+    }
+
+    #blog {
+        grid-area: blog;
+    }
+
+    #contact {
+        grid-area: contacts;
+    }
+
     #navbar-icon {
         display: none;
     }
 
-    section:not(.header) {
-        max-width: 800px;
-        margin: auto;
+    .page-title {
+        width: 50%;
     }
 
     .container {
-        width: 800px;
-        margin: auto;
+        width: 80%;
+        margin: 0px auto;
     }
 
     .navbar-menu {
@@ -323,11 +363,53 @@ hr.dotted {
 
     .navbar-nav {
         flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        padding-right: 100px;
     }
 
     .navbar-social {
         bottom: initial;
         left: 70%;
+        width: 30%;
+        line-height: 24px;
+    }
+
+    .navbar-item {
+        height: 1.5rem;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-social .navbar-item img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer .navbar-social {
+        height: 88px;
+        bottom: -30px;
+        left: 58%;
+    }
+
+    footer .navbar-social .navbar-item img {
+        width: 44px;
+        height: 44px;
+    }
+
+    a.toTop {
+        display: none;
+    }
+
+    hr.dotted {
+        border: none;
+    }
+
+    .meetup-info {
+        border: #BA0021 1px dotted;
+        padding: 1rem;
     }
 
 }

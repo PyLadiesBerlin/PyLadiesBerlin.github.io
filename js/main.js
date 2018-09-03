@@ -1,7 +1,7 @@
 /*
  *  Mobile Navagation Script
  */
-let mainNav       = document.getElementById('main-nav')
+let mainNav       = document.getElementById('pageNav')
 let burgerButton  = document.getElementById('navbar-icon')
 
 /*
