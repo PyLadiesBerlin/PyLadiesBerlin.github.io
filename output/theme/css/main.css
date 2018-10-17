@@ -1,3 +1,20 @@
+/*
+	Name: Smashing HTML5
+	Date: July 2009
+	Description: Sample layout for HTML5 and CSS3 goodness.
+	Version: 1.0
+	License: MIT <http://opensource.org/licenses/MIT>
+	Licensed by: Smashing Media GmbH <http://www.smashingmagazine.com/>
+	Original author: Enrique Ramírez <http://enrique-ramirez.com/>
+*/
+
+/* Imports */
+@import url("reset.css");
+@import url("pygment.css");
+@import url("typogrify.css");
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
+
+/***** Global *****/
 * {
     box-sizing: border-box;
 }
@@ -39,12 +56,10 @@ section:not(.header, #blog) {
     background: rgb(250,29,103);
 }
 
-/* ****************************
-        Navbar Styles
-***************************** */
-nav {
 
-}
+/* *********************************
+           Navbar Styles
+********************************* */
 
 .navbar {
     display: block;
@@ -138,7 +153,6 @@ footer .navbar-social {
 }
 
 
-
 /* ****************************
         Text Styles
 ***************************** */
@@ -191,9 +205,12 @@ a, a:visited {
   a:hover, a:focus, a:active {
     color: #BA0021;
   }
-/* ****************************
-        Button Styles
-***************************** */
+
+
+/* *********************************
+           Button Styles
+********************************* */
+
 a.toTop {
     position: relative;
     left: 85%;
@@ -203,9 +220,11 @@ a.toTop {
     line-height: 44px;
 }
 
-/* ****************************
-        Images & Icons Styles
-***************************** */
+
+/* *********************************
+       Images & Icons Styles
+********************************* */
+
 .map-pointer {
     background: url(../img/map_pointer.svg);
     display: inline-block;
@@ -251,17 +270,21 @@ a.organisor-contact {
     text-align: center;
 }
 
-/* ****************************
-        HR Styles
-***************************** */
+
+/* *********************************
+             HR Styles
+********************************* */
+
 hr.dotted {
     width: 95%;
     border-top: 1px dashed rgb(250,29,103);
 }
 
-/* ****************************
-        Meetup Events Styles
-***************************** */
+
+/* *********************************
+       Meetup Events Styles
+********************************* */
+
 .meetup {
     height: 100%;
     display: flex;
@@ -307,7 +330,11 @@ hr.dotted {
     text-align: center;
 }
 
-/*************** Media Query Medium Screen ***************/
+
+/* *********************************
+     Media Query Medium Screen
+********************************* */
+
 @media screen and (min-width: 1201px) {
     .content {
         grid-template-columns: 10% 40% 40% 10%;
