@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'gothambook';
+  src:url('../fonts/gotham-book.ttf'),
+  url('../fonts/gotham-book.eot') format('embedded-opentype'),
+  url('../fonts/gotham-book.woff') format('woff');;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .caps {font-size:.92em;}
-.amp {color:#666; font-size:1.05em;font-family:"Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua",serif; font-style:italic;}    
 .dquo {margin-left:-.38em;}
