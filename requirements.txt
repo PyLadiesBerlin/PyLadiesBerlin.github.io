@@ -1,0 +1,1 @@
+# needed for heroku to accept that this is a Python app, although it is static
