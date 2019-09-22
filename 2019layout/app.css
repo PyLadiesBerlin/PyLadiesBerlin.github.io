@@ -1,0 +1,69 @@
+body {
+  background: #FA023C;
+  font-family: "Abhaya";
+}
+
+a {
+  color: #3A3F3A;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.blurb h2{
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p{
+  font-family: "Abhaya";
+  color: white;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+  color: white;
+}
+
+#mainNavbar .nav-link:hover{
+  color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+  color: #EA1C2C;
+}
+
+#headingGroup span{
+  color: #A5A7A5;
+}
+
+#headingGroup h1{
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.navbar.scrolled {
+  background: #3A3F3A;
+  transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1{
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
