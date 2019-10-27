@@ -1,0 +1,32 @@
+### Flask.Python Stack ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+var/
+.installed.cfg
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+.pytest_cache/
+
+# pyenv
+.python-version
+#
+### VirtualEnv ###
+pyvenv.cfg
+.env
+.venv
+env/
+venv/
+ENV/
