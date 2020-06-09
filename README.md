@@ -5,6 +5,17 @@
 - Built with Python and Flask
 - Deployed via Heroku ([check here](https://pyladies-website-dev.herokuapp.com/))
 
+## Installation
+
+- Create a virtual environment with python 3.6.8
+- Enable the environment
+- Run `pip install -r requirements.txt`
+- Define flask running app `export FLASK_APP=app.py`
+- Run application `flask run`
+- Check the app in http://127.0.0.1:5000/
+
+
+
 ## Contributing
 PyLadies Berlin organization is a small team of volunteers, so we're always happy to have new contributors (:
 
