@@ -30,3 +30,7 @@ pyvenv.cfg
 env/
 venv/
 ENV/
+
+
+# Pelican
+output/
