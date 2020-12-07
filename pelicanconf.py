@@ -1,42 +1,134 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-import sys 
+from __future__ import unicode_literals
 import os
-sys.path.append(os.path.dirname(os.path.realpath(__file__)))
-from jinja_filters import sidebar
 
-AUTHOR = 'Maria Popova'
-SITENAME = 'Pelican Experiment'
-SITEURL = ''
+AUTHOR = 'Claudio Walser'
+SITENAME = 'FH5CO Marble Example'
+SITEDESCRIPTION = 'this is just an example page for the pelican-fh5co-marble theme.'
+SITEURL = 'http://localhost:8081'
 
-PATH = 'content'
+# plugins
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites', 'tipue_search']
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
-TIMEZONE = 'Europe/Paris'
-
+# theme and theme localization
+THEME = 'pelican-fh5co-marble'
+I18N_GETTEXT_LOCALEDIR = 'pelican-fh5co-marble/locale/'
+I18N_GETTEXT_DOMAIN = 'messages'
+I18N_GETTEXT_NEWSTYLE = True
+TIMEZONE = 'Europe/Zurich'
+DEFAULT_DATE_FORMAT = '%a, %d %b %Y'
+I18N_TEMPLATES_LANG = 'en_US'
 DEFAULT_LANG = 'en'
+LOCALE = 'en_US'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+# content paths
+PATH = 'content'
+PAGE_PATHS = ['pages/en']
+ARTICLE_PATHS = ['blog/en']
 
-THEME = 'twenty-pelican-html5up'
+# i18n
+I18N_SUBSITES = {
+  'de': {
+    'PAGE_PATHS': ['pages/de'],
+    'ARTICLE_PATHS': ['blog/de'],
+    'LOCALE': 'de_DE'
+  }
+}
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+# logo path, needs to be stored in PATH Setting
+LOGO = '/images/logo.svg'
+
+# special content
+HERO = [
+  {
+    'image': '/images/hero/background-1.jpg',
+    # for multilanguage support, create a simple dict
+    'title': {
+      'en':'Some special content',
+      'de': 'Spezieller Inhalt'
+    },
+    'text': {
+      'en': 'Any special content you want to tease here',
+      'de': 'Jeglicher spezieller Inhalt den Sie hier bewerben möchten'
+    },
+    'links': [
+      {
+        'icon': 'icon-code',
+        'url': 'https://github.com/claudio-walser/pelican-fh5co-marble',
+        'text': 'Github'
+      }
+    ]
+  }, {
+    'image': '/images/hero/background-2.jpg',
+    # keep it a string if you dont need multiple languages
+    'title': 'Uh, special too',
+    # keep it a string if you dont need multiple languages
+    'text': 'Keep hero.text and hero.title a string if you dont need multilanguage.',
+    'links': []
+  }, {
+    'image': '/images/hero/background-3.jpg',
+    'title': 'No Blogroll yet',
+    'text': 'Because of space issues in the man-nav, i didnt implemented Blogroll links yet.',
+    'links': []
+  }, {
+    'image': '/images/hero/background-4.jpg',
+    'title': 'Ads missing as well',
+    'text': 'And since i hate any ads, this is not implemented as well',
+    'links': []
+  }
+]
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+  ('Github', 'https://www.github.com/claudio-walser'),
+  ('Facebook', 'https://www.facebook.com'),
+  ('Twitter', 'https://www.twitter.com'),
+  ('Google+', 'https://plus.google.com')
+)
 
-DEFAULT_PAGINATION = 10
+ABOUT = {
+  'image': '/images/about/about.jpeg',
+  'mail': 'info@gitcd.io',
+  # keep it a string if you dont need multiple languages
+  'text': {
+    'en': 'Learn more about the creator of this theme or just drop a message.',
+    'de': 'Lernen Sie den Author kennen oder hinterlassen Sie einfach eine Nachricht'
+  },
+  'link': 'contact.html',
+  # the address is also taken for google maps
+  'address': 'Zürich, Schweiz',
+  'phone': '+555-shoe'
+}
 
-JINJA_FILTERS = {'sidebar': sidebar}
+# navigation and homepage options
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_HOME = True
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_TAGS_ON_MENU = False
+USE_FOLDER_AS_CATEGORY = True
+PAGE_ORDER_BY = 'order'
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+MENUITEMS = [
+  ('Archive', 'archives.html'),
+  ('Contact', 'contact.html')
+]
+
+DIRECT_TEMPLATES = [
+  'index',
+  'tags',
+  'categories',
+  'authors',
+  'archives',
+  'search', # needed for tipue_search plugin
+  'contact' # needed for the contact form
+]
+
+# setup disqus
+DISQUS_SHORTNAME = 'gitcd-dev'
+DISQUS_ON_PAGES = False # if true its just displayed on every static page, like this you can still enable it per page
+
+# setup google maps
+GOOGLE_MAPS_KEY = 'AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA'

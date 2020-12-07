@@ -1,2 +1,3 @@
-pelican[markdown]
-invoke
+pelican[Markdown]==4.2.0
+beautifulsoup4==4.9.1
+markdown==3.2.2
