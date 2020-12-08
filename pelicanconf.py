@@ -3,10 +3,10 @@
 from __future__ import unicode_literals
 import os
 
-AUTHOR = 'Claudio Walser'
-SITENAME = 'FH5CO Marble Example'
-SITEDESCRIPTION = 'this is just an example page for the pelican-fh5co-marble theme.'
-SITEURL = 'http://localhost:8081'
+AUTHOR = 'PyLadies Berlin'
+SITENAME = 'PyLadies Berlin'
+SITEDESCRIPTION = 'PyLadies Berlin is a local chapter of PyLadies, an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community.'
+SITEURL = 'http://localhost:8000'
 
 # plugins
 PLUGIN_PATHS = ['pelican-plugins']
