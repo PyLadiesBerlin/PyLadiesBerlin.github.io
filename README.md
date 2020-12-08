@@ -24,3 +24,12 @@ For git < 2.11 use:
     pelican --listen
 
 Open http://localhost:8000 in your browser.
+
+
+# Develop
+
+Main website structure and menus and pictures are controlled by `pelicanconf.py`. All static files mentioned there have to be under `content` directory.
+
+## Content
+
+Are the articles under each 
