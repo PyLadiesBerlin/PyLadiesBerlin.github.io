@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="516px" viewBox="0 0 512 516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>github</title>
+    <defs>
+        <filter x="0.0%" y="-0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Social-Media-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="github" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#ED1B49" x="0" y="0" width="512" height="512" rx="15"></rect>
+            <path d="M335,499 C349,499 347,516 347,516 L165,516 C165,516 163,499 177,499 C190,499 193,493 193,487 L192,437 C121,453 106,409 106,409 C94,379 78,372 78,372 C54,356 79,356 79,356 C105,358 119,382 119,382 C141,421 178,410 193,404 C195,387 202,376 209,369 C152,363 93,341 93,243 C93,215 103,192 119,174 C116,168 108,142 122,107 C122,107 143,100 192,133 C234,121 278,121 320,133 C369,100 390,107 390,107 C404,142 396,168 393,174 C409,192 419,215 419,243 C419,341 359,363 302,369 C312,377 320,393 320,417 L319,487 C319,493 322,499 335,499 Z" id="Path" fill="#FFFFFF" filter="url(#filter-1)"></path>
+        </g>
+    </g>
+</svg>
