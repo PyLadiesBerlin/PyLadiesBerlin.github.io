@@ -8,6 +8,9 @@ For git < 2.11 use:
 
     git clone --recursive git@github.com:PyLadiesBerlin/website.git
 
+## Update submodules
+
+    git submodule update
 
 ## Setup a python environment
 
