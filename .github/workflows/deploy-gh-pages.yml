@@ -41,8 +41,6 @@ jobs:
           # The name of the directory that containing the content to be published
           dir: output
           # The name of the remote branch that publishing source for GitHub Pages site
-          branch: # optional, default is gh-pages
-          # The remote repository that publishing source for GitHub Pages site, defaults to current repo and is formatted like 'user/repo-name'
-          repo: # optional
+          branch: gh-pages # optional, default is gh-pages
           # The personal access token that authorize repo access
           token: ${{ secrets.DEPLOY_TOKEN }}
