@@ -83,24 +83,23 @@ HERO = [
 
 # Social widget
 SOCIAL = (
-  ('Github', 'https://www.github.com/claudio-walser'),
-  ('Facebook', 'https://www.facebook.com'),
-  ('Twitter', 'https://www.twitter.com'),
-  ('Google+', 'https://plus.google.com')
+  ('Github', 'https://github.com/PyLadiesBerlin'),
+  ('Facebook', 'https://www.facebook.com/PyLadiesBerlin'),
+  ('Twitter', 'https://twitter.com/PyLadiesBer')
 )
 
 ABOUT = {
   'image': '/images/about/about.jpeg',
-  'mail': 'info@gitcd.io',
+  'mail': 'berlin@pyladies.com',
   # keep it a string if you dont need multiple languages
   'text': {
-    'en': 'Learn more about the creator of this theme or just drop a message.',
-    'de': 'Lernen Sie den Author kennen oder hinterlassen Sie einfach eine Nachricht'
+    'en': 'Learn more about PyLadies Berlin or just drop a message.',
+    'de': 'Ihr wollt mehr erfahren über PyLadies Berlin, dann hinterlasst uns eine Nachricht'
   },
   'link': 'contact.html',
   # the address is also taken for google maps
-  'address': 'Zürich, Schweiz',
-  'phone': '+555-shoe'
+  'address': 'Berlin, Germany',
+  #'email': 'berlin@pyladies.com'
 }
 
 # navigation and homepage options
