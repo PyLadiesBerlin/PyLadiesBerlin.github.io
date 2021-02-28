@@ -6,7 +6,7 @@ import os
 AUTHOR = 'PyLadies Berlin'
 SITENAME = 'PyLadies Berlin'
 SITEDESCRIPTION = 'PyLadies Berlin is a local chapter of PyLadies, an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community.'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 
 # plugins
 PLUGIN_PATHS = ['pelican-plugins']
@@ -68,7 +68,7 @@ HERO = [
     # keep it a string if you dont need multiple languages
     'text': 'Keep hero.text and hero.title a string if you dont need multilanguage.',
     'links': []
-  }, {
+    }, {
     'image': '/images/hero/background-3.jpg',
     'title': 'No Blogroll yet',
     'text': 'Because of space issues in the man-nav, i didnt implemented Blogroll links yet.',
@@ -126,9 +126,9 @@ DIRECT_TEMPLATES = [
   'contact' # needed for the contact form
 ]
 
-# setup disqus
-DISQUS_SHORTNAME = 'gitcd-dev'
-DISQUS_ON_PAGES = False # if true its just displayed on every static page, like this you can still enable it per page
+# # setup disqus
+# DISQUS_SHORTNAME = 'gitcd-dev'
+# DISQUS_ON_PAGES = False # if true its just displayed on every static page, like this you can still enable it per page
 
-# setup google maps
-GOOGLE_MAPS_KEY = 'AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA'
+# # setup google maps
+# GOOGLE_MAPS_KEY = 'AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA'
