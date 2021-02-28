@@ -112,15 +112,15 @@ USE_FOLDER_AS_CATEGORY = True
 PAGE_ORDER_BY = 'order'
 
 MENUITEMS = [
-  ('Archive', 'archives.html'),
+  # ('Archive', 'archives.html'),
   ('Contact', 'contact.html')
 ]
 
 DIRECT_TEMPLATES = [
   'index',
   'tags',
-  'categories',
-  'authors',
+  # 'categories',
+  # 'authors',
   'archives',
   'search', # needed for tipue_search plugin
   'contact' # needed for the contact form
