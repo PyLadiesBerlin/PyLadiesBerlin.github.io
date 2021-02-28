@@ -18,7 +18,7 @@ THEME = 'pelican-fh5co-marble'
 I18N_GETTEXT_LOCALEDIR = 'pelican-fh5co-marble/locale/'
 I18N_GETTEXT_DOMAIN = 'messages'
 I18N_GETTEXT_NEWSTYLE = True
-TIMEZONE = 'Europe/Zurich'
+TIMEZONE = 'Europe/Berlin'
 DEFAULT_DATE_FORMAT = '%a, %d %b %Y'
 I18N_TEMPLATES_LANG = 'en_US'
 DEFAULT_LANG = 'en'
@@ -47,8 +47,8 @@ HERO = [
     'image': '/images/hero/background-1.jpg',
     # for multilanguage support, create a simple dict
     'title': {
-      'en':'Some special content',
-      'de': 'Spezieller Inhalt'
+      'en':'We speak Python',
+      'de': 'Wir sprechen Python'
     },
     'text': {
       'en': 'Any special content you want to tease here',
@@ -57,7 +57,7 @@ HERO = [
     'links': [
       {
         'icon': 'icon-code',
-        'url': 'https://github.com/claudio-walser/pelican-fh5co-marble',
+        'url': 'https://github.com/PyLadiesBerlin',
         'text': 'Github'
       }
     ]
