@@ -31,14 +31,8 @@ jobs:
         run: |
           pip install -r requirements.txt && pelican content
           
-      - name: Publish to GitHub Pages
-        # You may pin to the exact commit or the version.
-        uses: tsunematsu21/actions-publish-gh-pages@c743f8c5880024a3f46adaf33114015a5f37f834
-        # uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # The name of the directory that containing the content to be published
-          dir: output
-          # The name of the remote branch that publishing source for GitHub Pages site
-          branch: gh-pages # optional, default is gh-pages
-          # The personal access token that authorize repo access
-          token: ${{ secrets.DEPLOY_TOKEN }}
+          github_token: ${{ secrets.DEPLOY_TOKEN }}
+          publish_dir: ./output
