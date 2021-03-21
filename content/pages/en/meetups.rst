@@ -10,7 +10,7 @@ Meetups
 
 .. container:: float-left
 
-    .. image:: /images/meetups/tdd.jpg
+    .. image:: {attach}/images/meetups/tdd.jpg
         :width: 400px
 
 Meetups
