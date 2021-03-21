@@ -16,7 +16,7 @@ Profession
 ----------
 .. container:: float-left
 
-    .. image:: /images/about/about.jpeg
+    .. image:: {attach}/images/about/about.jpeg
         :width: 150px
 
 Well, as you can see I like wallace and gromit. I work as a software developer/system engineer and like python most. I am able to write html/css/js but it's defenitely not my favorite. Then I am also able to write php code. Ehm, even if I don't like it very much, it's still usefull here and there. Trying to get warm with golang (dislike absence of exceptions) and hater of ruby/perl. NodeJS is cool as well.
