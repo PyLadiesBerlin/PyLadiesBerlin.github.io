@@ -26,6 +26,10 @@ For git < 2.11 use:
     pelican content
     pelican --listen
 
+or for faster changes use:
+
+    pelican --autoreload --listen
+
 Open http://localhost:8000 in your browser.
 
 
