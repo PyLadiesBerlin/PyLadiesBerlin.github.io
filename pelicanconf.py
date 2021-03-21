@@ -100,6 +100,11 @@ ABOUT = {
   # the address is also taken for google maps
   'address': 'Berlin, Germany',
   #'email': 'berlin@pyladies.com'
+  'slack': {
+    'image': '/images/about/slack-logo.png',
+    'link': 'https://slackin.pyladies.com/',
+    'text': 'Join us on slack in #city-berlin channel!'
+  }
 }
 
 # navigation and homepage options
