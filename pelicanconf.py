@@ -47,37 +47,62 @@ HERO = [
     'image': '/images/hero/background-1.jpg',
     # for multilanguage support, create a simple dict
     'title': {
-      'en':'We speak Python',
-      'de': 'Wir sprechen Python'
+      'en':'PyLadies Berlin on YouTube',
+      'de': 'PyLadies Berlin in YouTube'
     },
     'text': {
-      'en': 'Any special content you want to tease here',
-      'de': 'Jeglicher spezieller Inhalt den Sie hier bewerben möchten'
+      'en': 'Find recent recodings of workshops and meetups on our YouTube Channel.',
+      'de': 'Aktuelle Videos unserer Workshops und Meetups findest du auf unserem YouTube Channel.'
     },
     'links': [
       {
         'icon': 'icon-code',
-        'url': 'https://github.com/PyLadiesBerlin',
-        'text': 'Github'
+        'url': 'https://www.youtube.com/user/PyLadiesBerlin',
+        'text': 'YouTube'
       }
     ]
   }, {
     'image': '/images/hero/background-2.jpg',
     # keep it a string if you dont need multiple languages
-    'title': 'Uh, special too',
-    # keep it a string if you dont need multiple languages
-    'text': 'Keep hero.text and hero.title a string if you dont need multilanguage.',
-    'links': []
-    }, {
+    'title': 'This is PyLadies Berlin',
+    'text': {
+      'en': 'Get up to date about PyLadies menthorship, the organizer team and our commitment to the Python community.',
+      'de': 'Infos über das PyLadies Mentorship Program, das Organizer-Team und unseren Einsatz für die Python Community.',
+    },
+    'links': [
+      {
+        'url': '/pages/about.html',
+        'text': 'About'
+        }
+      ]
+    }, 
+    
+    {
     'image': '/images/hero/background-3.jpg',
-    'title': 'No Blogroll yet',
-    'text': 'Because of space issues in the man-nav, i didnt implemented Blogroll links yet.',
-    'links': []
+    'title': 'Meetups',
+    'text': {
+      'en': 'Meet the PyLadies community, learn something new about Python and become an active member.',
+      'de': 'Lerne die PyLadies Community kennen, lerne etwas neues über Python und werde ein aktives Mitglied.'
+    },
+    'links': [
+      {
+        'url': '/pages/meetups.html',
+        'text': 'Meetups'
+      }
+    ]
   }, {
     'image': '/images/hero/background-4.jpg',
-    'title': 'Ads missing as well',
-    'text': 'And since i hate any ads, this is not implemented as well',
-    'links': []
+    'title': 'Python learning resources',
+    'text': {
+      'eng': 'Find a list of amazing resources for your Python learning journey.',
+      'de': 'Hier findest du eine Liste von Lernmaterial um mehr übers Programmiernen mit Python zu lernen.'
+    },
+    'links': [
+      {
+        'url': '/pages/resources.html',
+        'text': 'Learning resources'
+      }
+    ]
   }
 ]
 
