@@ -14,8 +14,8 @@ For git < 2.11 use:
 
 ## Setup a python environment
 
-    python3 -m venv .ENV  # use python if it is a python > 3
-    source .ENV/bin/activate
+    python3 -m venv .evn  # use python if it is a python > 3
+    source .env/bin/activate
 
 ## Install requirements
 
