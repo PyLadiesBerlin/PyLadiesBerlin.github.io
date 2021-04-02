@@ -38,18 +38,13 @@ I18N_SUBSITES = {
   }
 }
 
-PREFIX_URL = os.getenv('SITE_PREFIX', '')
-
-def theme_image(url):
-  return PREFIX_URL + url
-
 # logo path, needs to be stored in PATH Setting
-LOGO = theme_image('/images/logo.png')
+LOGO = '/images/logo.png'
 
 # special content
 HERO = [
   {
-    'image': theme_image('/images/hero/background-1.jpg'),
+    'image': '/images/hero/background-1.jpg',
     # for multilanguage support, create a simple dict
     'title': {
       'en':'PyLadies Berlin on YouTube',
@@ -67,7 +62,7 @@ HERO = [
       }
     ]
   }, {
-    'image': theme_image('/images/hero/background-2.jpg'),
+    'image': '/images/hero/background-2.jpg',
     # keep it a string if you dont need multiple languages
     'title': 'This is PyLadies Berlin',
     'text': {
@@ -83,7 +78,7 @@ HERO = [
     }, 
     
     {
-    'image': theme_image('/images/hero/background-3.jpg'),
+    'image': '/images/hero/background-3.jpg',
     'title': 'Meetups',
     'text': {
       'en': 'Meet the PyLadies community, learn something new about Python and become an active member.',
@@ -96,7 +91,7 @@ HERO = [
       }
     ]
   }, {
-    'image': theme_image('/images/hero/background-4.jpg'),
+    'image': '/images/hero/background-4.jpg',
     'title': 'Python learning resources',
     'text': {
       'eng': 'Find a list of amazing resources for your Python learning journey.',
@@ -119,7 +114,7 @@ SOCIAL = (
 )
 
 ABOUT = {
-  'image': theme_image('/images/about/about.jpeg'),
+  'image': '/images/about/about.jpeg',
   'mail': 'berlin@pyladies.com',
   # keep it a string if you dont need multiple languages
   'text': {
@@ -131,7 +126,7 @@ ABOUT = {
   'address': 'Berlin, Germany',
   #'email': 'berlin@pyladies.com'
   'slack': {
-    'image': theme_image('/images/about/slack-logo-small.png'),
+    'image': '/images/about/slack-logo-small.png',
     'link': 'https://slackin.pyladies.com/',
     'text': 'Join us on slack in #city-berlin channel!'
   }
