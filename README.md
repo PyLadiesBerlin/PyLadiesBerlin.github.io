@@ -37,6 +37,9 @@ Open http://localhost:8000 in your browser.
 
 Main website structure and menus and pictures are controlled by `pelicanconf.py`. All static files mentioned there have to be under `content` directory.
 
+# Icons
+Check https://icomoon.io/#preview-free and then in the pelican-fh5co-marble/static/css/icomoon.css to find the exact icon name.
+
 ## Content
 
 Are the articles under each 
