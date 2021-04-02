@@ -8,25 +8,20 @@ Meetups
 :lang: en
 :slug: meetups
 
-.. container:: float-left
-
-    .. image:: {attach}/images/meetups/tdd.jpg
-        :width: 400px
 
 Meetups
 ~~~~~~~
 
 We have monthly meetups with talks and workshop on various python related and development in general and data topics.
 
-You can find and join upcoming events on our `Meetup group <https://www.meetup.com/PyLadies-Berlin/>`_.
+You can find and join upcoming events on our `Meetup group <https://www.meetup.com/PyLadies-Berlin/>`__.
 
 We do have varying levels in different meetups from novice to expert in specific topics. We always try to
-include a "Non-coding superpower" 10 mins talk as tech life and life is much more than coding!
+include a "Non-coding superpower" 10 mins talk in the beginning. Because we belife (tech) life is much more than coding!
 
-Speak in our meetup
-~~~~~~~~~~~~~~~~~~~
+Call for speakers
+~~~~~~~~~~~~~~~~~~
 
-We love to hear what you have to share with the community, from beginners topic to a project you worked on
-or a hands on session or a non-coding superpower!
+We love to hear what you have to share with the community, from beginners topic to a project you worked on, a hands on session or a non-coding superpower!
 
-Reach out to us via email or slack.
+Reach out to us via Email or `Slack <https://slackin.pyladies.com>`__.

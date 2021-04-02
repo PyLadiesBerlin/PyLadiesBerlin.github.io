@@ -1,37 +1,26 @@
 About
-#####
+#########
 
 :order: 1
-:date: 2018-01-25 08:46
+:date: 2021-04-02 18:26
 :icon: icon-link2
-:summary: Learn about the author of this theme.
+:summary: 
 :lang: en
 :slug: about
 
-About the author of this theme
+About PyLadies Berlin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+PyLadies Berlin is a chapter of the international PyLadies community, a group of girls and women coding in this lovely city. We are eager to develop and advance our knowlegde in the world of programming and you are invited to learn with us!
 
-Profession
-----------
-.. container:: float-left
+The global `PyLadies <https://pyladies.com/>`__ mentorship group has a focus on helping more women become active participants and leaders in the Python open-source community with the mission to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings. PyLadies aims to provide a friendly support network for women and a bridge to the larger Python world.
 
-    .. image:: {attach}/images/about/about.jpeg
-        :width: 150px
+As a group of women developers who love the Python programming language. We write code by day or night. Some of us hack on Python projects on the side, while others work full-time on Python development. But it doesn't matter. We all just like writing Python code, and that's what brings us together. Are you an experienced female Python developer? Or are you new and need help getting into Python development?
+Please join us!
 
-Well, as you can see I like wallace and gromit. I work as a software developer/system engineer and like python most. I am able to write html/css/js but it's defenitely not my favorite. Then I am also able to write php code. Ehm, even if I don't like it very much, it's still usefull here and there. Trying to get warm with golang (dislike absence of exceptions) and hater of ruby/perl. NodeJS is cool as well.
-Bash is very useful but ugly as hell.
+Here's how you can join:
+-------------------------
 
-As a sysadmin I manage debian servers and I have a strong aversion against windows. I don't like OSX either but still, it's less of a pain than windows. Also on my private machines, i prefer Ubuntu.
-
-
-
-Spare time
-----------
-.. container:: float-right
-
-    .. image:: /images/about/hiking.jpg
-        :width: 250px
-
-Then in my spare time, i used to climb alot. But nowadays, I am a proud father of a great little girl as my main activity and since I gained some (alot of) weight in the past few years, I probably would'nt climb that much anyway. Still, we are in the mountains quite alot, hiking, skiing or just relaxing. Then I love to sail in strong (from my point of view, might not be that strong for others) winds. Just love getting wet in my small Byte CII from Nautivela. My sailing sessions are around 2 or maybe 3 hours, which is equal to 400 situps usually ;-)
-My skills are probably still on the low side but nevertheless I have a hell of fun doing it.
+* Join our `Meetup <https://www.meetup.com/de-DE/PyLadies-Berlin/>`__ events as participant or mentor.
+* Join the PyLadies `Slack <https://slackin.pyladies.com>`__ workspace.
+* Ask questions!

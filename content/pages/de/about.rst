@@ -1,37 +1,35 @@
-Über
-####
+Über uns
+#########
 
 :order: 1
-:date: 2018-01-25 08:46
+:date: 2021-04-02 18:26
 :icon: icon-link2
-:summary: Lernen Sie mehr über den Author dieser Theme
+:summary: 
 :lang: de
 :slug: about
 
-Über den Author dieser Theme
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Über PyLadies Berlin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PyLadies Berlin ist eine der deutschen Ortsgruppen der weltweiten PyLadies Community. Als begeisterte Programmiererinnen entwickeln wir zusammen unsere Python Kentnisse und möchten dich einladen mit dabei zu sein!
+
+Die globale `PyLadies <https://pyladies.com/>`__ Mentorship Gemeinschaft hat es sich zum Auftrag gemacht Frauen dabei zu unterstützen als aktive Mitglieder die Python-Welt zu gestalten and führende Köpfe in der Python Open-Source Community zu werden. Unsere Mission ist es, zu unterstützen, auszubilden and die Python community diverser, bunter, kreativer zu machen. Durch gemeinschafftliche Initiative, Weiterbildung, Konferenzen, Events and persönliche Treffen. 
+PyLadies möchte ein freundliches Unterstützungsnetzwerk für Frauen und eine Brücke zur größeren Python-Welt bieten.
+Wir möchten das gerade Frauen sich in der Programmier-Welt willkommen fühlen und sorgen deswegen dafür, dass unsere Events eine einladende und sicher Umgebung für den Einstieg und die 
+!TRANSLATION WIP!
+Wir wollen in einer Welt leben, in der weibliche Perspektiven in der Technik selbstverständlich sind. (from haecksen)
+As a group of women developers who love the Python programming language. We write code by day or night. Some of us hack on Python projects on the side, while others work full-time on Python development. But it doesn't matter. We all just like writing Python code, and that's what brings us together. Are you an experienced female Python developer? Or are you new and need help getting into Python development?
+Schau vorbei und schließe dich uns an!
+
+So findest du zu uns:
+----------------------
+
+* Besuche unsere `Meetup <https://www.meetup.com/de-DE/PyLadies-Berlin/>`__ Events als Gast oder Mentorin.
+* Tritt unserem `Slack <https://slackin.pyladies.com>`__ Workspace bei.
+* Stelle Frage und teile cooles Python Wissen!
 
 
-Beruflich
----------
 .. container:: float-left
 
-    .. image:: {attach}/images/about/about.jpeg
-        :width: 150px
-
-Wie Sie sicher sehen können mag ich Wallace und Gromit. Ich bin Software Entwickler und System Administrator und Python ist meine Lieblingssprache. Ich kann HTML/CSS/JS aber es ist definitiv nicht meine Lieblingsbeschäftigung. PHP Code schreibe ich auch. Und auch wenn ich PHP nicht besonders gerne mag, ist es dennoch eine nützliche Sprache. Aktuell versuche ich mich etwas in GoLang (ich vermisse aber Exceptions) und ich hasse Ruby und Perl. Dafür gefällt mir NodeJS auch.
-Bash ist sehr nützlich und zugleich sehr hässlich.
-
-Als Systemadministrator betreue ich Debian Server und habe eine starke Abneigung gegen Windows. Ich mag auch kein Mac OSX, auch wenn es immer noch besser ist als Windows.
-Privat habe ich meistens Ubuntu auf meinen Rechnern.
-
-
-Freizeit
---------
-.. container:: float-right
-
-    .. image:: {attach}/images/about/hiking.jpg
-        :width: 250px
-
-In meiner Freizeit war ich früher gerne und oft Klettern. Heute bin ich aber hauptsächlich stolzer Vater eines grossartigen Mädchens. Ausserdem habe ich in den letzten Jahren leicht (sehr viel) zugenommen weshalb ich vermutlich so oder so nicht mehr so viel Klettern würde. Dennoch sind wir sehr gerne in den Bergen unterwegs, beim Wandern, Skifahren oder einfach beim Entspannen. Ausserdem liebe ich das Segeln in starkem (zumindest aus meiner Sicht, für Andere ist das vielleicht nur eine Brise) Wind. Ich liebe es in meiner kleinen Byte CII nass zu werden und dem Wind zu trotzen. Meine Segeleinheiten dauern meistens so 2 bis 3 Stunden was in etwa 400 Rumpfbeugen entspricht ;-)
-Meine Fähigkeiten sind vermutlich noch weit unten angesiedelt, nichts desto trotz habe ich jede Menge Spass dabei.
+    .. image:: {attach}/images/meetups/tdd.jpg
+        :width: 400px
