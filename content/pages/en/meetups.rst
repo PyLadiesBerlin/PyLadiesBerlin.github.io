@@ -8,6 +8,10 @@ Meetups
 :lang: en
 :slug: meetups
 
+.. container:: float-left
+
+    .. image:: {attach}/images/meetups/tdd.jpg
+        :width: 350px
 
 Meetups
 ~~~~~~~
@@ -17,7 +21,7 @@ We have monthly meetups with talks and workshop on various python related and de
 You can find and join upcoming events on our `Meetup group <https://www.meetup.com/PyLadies-Berlin/>`__.
 
 We do have varying levels in different meetups from novice to expert in specific topics. We always try to
-include a "Non-coding superpower" 10 mins talk in the beginning. Because we belife (tech) life is much more than coding!
+include a "Non-coding superpower" 10 mins talk in the beginning. Because we believe (tech) life is much more than coding!
 
 Call for speakers
 ~~~~~~~~~~~~~~~~~~
