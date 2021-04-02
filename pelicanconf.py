@@ -131,7 +131,7 @@ ABOUT = {
   'address': 'Berlin, Germany',
   #'email': 'berlin@pyladies.com'
   'slack': {
-    'image': theme_image('/images/about/slack-logo.png'),
+    'image': theme_image('/images/about/slack-logo-small.png'),
     'link': 'https://slackin.pyladies.com/',
     'text': 'Join us on slack in #city-berlin channel!'
   }
