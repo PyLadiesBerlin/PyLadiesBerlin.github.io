@@ -16,14 +16,14 @@ Jobs
 
 **Bist du auf der Suche nach einem Python Job?**
 
-Schau in unsere `slack`_ in #jobs-europe Kanal und #feed-jobs (auf diesem Kanal findest du mehr USA Jobs).
+Schau in unseren `Slack`_ in #jobs-europe Kanal und #feed-jobs (auf diesem Kanal findest du vor allem Jobs in den USA).
 
 
 
-**Hat deine Firma tolle python Jobs die du teilen möchtest?**
+**Hat deine Firma tolle Python Jobs die du teilen möchtest?**
 
-  - Veröffentlichst du den Job direkt in unserem `slack`_ in #job-europe Kanal.
+  - Veröffentliche den Job direkt in unserem `Slack`_ Kanal #job-europe.
 
   - Für Jobs außerhalb Europas füllst du dieses `Formular <http://bit.ly/pyladies-jobs-feed>`_ aus und es wird automatisch in #feed-jobs slack Kanal veröffentlicht.
 
-.. _slack: /contact.html
+.. _Slack: /contact.html
