@@ -16,12 +16,12 @@ Meetups
 Meetups
 ~~~~~~~~
 
-In unserem monatlichen Meetup kannst du dich auf Workshops und Vortr&auml;ge zu verschiedenen Python Themen z.B. aus dem Bereich Softwareentwicklung oder Data Science freuen.  
-Au&szlig;erdem besch&auml;ftigen wir uns in unseren Setup-Events mit grundlegenden Themen, die dir deinen Start in die Programmierung mit Python erleichtern.
+In unserem monatlichen Meetup kannst du dich auf Workshops und Vorträge zu verschiedenen Python Themen z.B. aus dem Bereich Softwareentwicklung oder Data Science freuen.  
+Außerdem beschäftigen wir uns in unseren Setup-Events mit grundlegenden Themen, die dir deinen Start in die Programmierung mit Python erleichtern.
 Unsere aktuellen Events findest du hier: `PyLadies Berlin Meetup group <https://www.meetup.com/PyLadies-Berlin/>`_.
 
 Bei unseren Events findest du Vorträge zu sehr speziellen Themen, aber auch Einsteiger-Workshops. 
-Unsere Events starten wir oft mit einem 10-min&uuml,tigen "Non-coding superpower" Vortrag, da es viele Themen gibt, die den Tech-Alltag bereichern und nichts mit Programmierung zu tun haben.
+Unsere Events beginnen wir oft mit einem 10min. "Non-coding superpower" Vortrag, da es viele Themen gibt, die den Tech-Alltag bereichern und nichts mit Programmierung zu tun haben.
 
 Erzähle uns was!
 ~~~~~~~~~~~~~~~~~~~
