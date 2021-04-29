@@ -14,14 +14,14 @@ Jobs
         :width: 300px
 
 
-**Are you looking for a python related job?**
+**Are you looking for a Python related job?**
 
 Checkout out our `slack`_ in #jobs-europe channel and #feed-jobs (this has mostly United States related jobs)
 
 
 
 
-**Does your company have nice python positions that you want to share?**
+**Does your company have nice Python positions that you want to share?**
 
   - Post the job directly in our `slack`_ in #job-europe channel.
 
