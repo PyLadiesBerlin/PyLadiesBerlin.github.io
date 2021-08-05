@@ -25,7 +25,7 @@ Schau in unseren `Slack`_ in #jobs-europe Kanal und #feed-jobs (auf diesem Kanal
   - Veröffentliche den Job direkt in unserem `Slack`_ Kanal #job-europe.
 
   - Für Job-Postings füllst du am besten dieses `Formular <http://bit.ly/pyladies-jobs-feed>`_ aus, die Anzeige wird dann automatisch 
-    im unserem #feed-jobs Slack Kanal veröffentlicht. 
+    in unserem #feed-jobs Slack Kanal veröffentlicht. 
     Das Formular ist ausschließlich für Stellenanzeigen außerhalb Europas gedacht.
 
 .. _Slack: /contact.html
