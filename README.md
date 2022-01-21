@@ -14,6 +14,8 @@ For git < 2.11 use:
 
     git submodule update
 
+If you cloned this repo without the submodules, use: `git submodule update --init`
+
 ## Setup an environment
 
 ### Using python
@@ -45,7 +47,7 @@ Access the `content` directory
 
 Build the website and listen to changes:
 
-    pelican
+    pelican content
     pelican --listen
 
 or for faster changes use:
