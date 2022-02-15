@@ -2,6 +2,8 @@
 
 Pyladies Berlin website is using [Pelican](https://docs.getpelican.com/en/latest/index.html) to generate HTML from articles in markdown. 
 
+It is deployed in github pages under https://berlin.pyladies.com domain. 
+
 ## Inspiration
 This website is inspired by https://elections.pyladies.com/ and is using the same base pelican theme. The code of that website can be found https://github.com/pyladies/pyladies-elections-website
 
