@@ -10,7 +10,7 @@ SITEURL = ''
 
 # plugins
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['i18n_subsites', 'tipue_search']
+PLUGINS = ['i18n_subsites']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 # theme and theme localization
@@ -145,15 +145,7 @@ MENUITEMS = [
   ('Contact', 'contact.html')
 ]
 
-DIRECT_TEMPLATES = [
-  'index',
-  'tags',
-  # 'categories',
-  # 'authors',
-  'archives',
-  'search', # needed for tipue_search plugin
-  'contact' # needed for the contact form
-]
+
 
 # # setup disqus
 # DISQUS_SHORTNAME = 'gitcd-dev'
