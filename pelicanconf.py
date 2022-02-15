@@ -41,7 +41,7 @@ I18N_SUBSITES = {
 # logo path, needs to be stored in PATH Setting
 LOGO = '/images/logo.png'
 
-# special content
+# home page rotating image 
 HERO = [
   {
     'image': '/images/hero/background-1.jpg',

@@ -12,6 +12,8 @@ Meetups
 
     .. image:: {attach}/images/meetups/tdd.jpg
         :width: 400px
+        :alt: Test Driven Development Pyladies Berlin meetup
+
 
 Meetups
 ~~~~~~~

@@ -11,6 +11,7 @@ Jobs
 .. container:: float-right
 
     .. image:: {attach}/images/jobs/poetry-workshop.JPG
+        :alt: Poetry package installer workshop Pyladies Berlin meetup
         :width: 300px
 
 
