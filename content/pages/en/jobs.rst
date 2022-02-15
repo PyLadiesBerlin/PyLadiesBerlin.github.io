@@ -12,6 +12,9 @@ Jobs
 
     .. image:: {attach}/images/jobs/poetry-workshop.JPG
         :width: 300px
+        :alt: Poetry package installer workshop Pyladies Berlin meetup
+
+
 
 
 **Are you looking for a Python related job?**
