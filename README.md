@@ -74,9 +74,16 @@ Open http://localhost:8000 in your browser.
 # Contribute
 
 ## Add content
-* Add RST articles under content/pages in both languages
-* Add images like in meetups.rst
-* List of existing title icons can be found in https://icomoon.io/#preview-free and then in the pelican-fh5co-marble/static/css/icomoon.css to find the exact icon name.
+
+### Pages
+New pages will show up automatically in the left menu.
+* Page content in [reStructuredText](https://docutils.sourceforge.io/rst.html) format under content/pages in both languages.
+* Images like in meetups.rst, with `float-left` and `float-right` possibilities.
+* Title icons can be found in https://icomoon.io/#preview-free and then checked in the pelican-fh5co-marble/static/css/icomoon.css to find the exact icon name.
+
+### Home page
+This page is produced by the theme, the top part is controlled by pelicanconf `HERO` variable.
+
 ## Change looks
 
 Consider reading about [Pelican themes](https://docs.getpelican.com/en/latest/themes.html). The used theme is under `pelican-fh5co-marble` submodule. Locally this appears as a directory and development can be done directly from here. Kind of, follow the steps below:
