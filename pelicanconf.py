@@ -152,6 +152,14 @@ MENUITEMS = [
   ('Contact', 'contact.html')
 ]
 
+DIRECT_TEMPLATES = [
+  'index',
+  'tags',
+  # 'categories',
+  # 'authors',
+  'archives',
+  'contact' # needed for the contact form
+]
 
 
 # # setup disqus
