@@ -40,6 +40,10 @@ Settings used by Github Action  to build the website (see .[.github/workflows/de
 
     git clone --recurse-submodules git@github.com:PyLadiesBerlin/website.git
 
+Or:
+
+    git submodule update --init --recursive
+
 For git < 2.11 use:
 
     git clone --recursive git@github.com:PyLadiesBerlin/website.git
