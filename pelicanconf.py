@@ -29,6 +29,12 @@ PATH = 'content'
 PAGE_PATHS = ['pages/en']
 ARTICLE_PATHS = ['blog/en']
 
+# extra static
+STATIC_PATHS = ['static']
+EXTRA_PATH_METADATA = {
+    'static/favicon.ico': {'path': 'favicon.ico'},
+    }
+
 # i18n
 I18N_SUBSITES = {
   'de': {
