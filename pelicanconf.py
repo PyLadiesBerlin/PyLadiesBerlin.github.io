@@ -30,7 +30,8 @@ PAGE_PATHS = ['pages/en']
 ARTICLE_PATHS = ['blog/en']
 
 # extra static
-STATIC_PATHS = ['static']
+RELATIVE_URLS = False
+STATIC_PATHS = ['static', 'images']
 EXTRA_PATH_METADATA = {
     'static/favicon.ico': {'path': 'favicon.ico'},
     }
