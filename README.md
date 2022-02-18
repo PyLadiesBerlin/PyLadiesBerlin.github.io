@@ -72,7 +72,6 @@ or for faster changes use:
 
 Open http://localhost:8000 in your browser.
 
-
 # Contribute
 
 ## Add content
@@ -92,3 +91,17 @@ Consider reading about [Pelican themes](https://docs.getpelican.com/en/latest/th
 * Make changes in the theme folder locally to see the result
 * Commit the changes to the upstream submodule repo
 * Update this repository to point to the latest theme commit
+
+# Troubleshooting
+
+In case your plugin directories is empty, check with:
+
+```
+ls pelican-plugin
+```
+
+Try to download the git repository again with the following command:
+
+```
+git submodule update --init --recursive
+```
