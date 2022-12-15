@@ -4,7 +4,7 @@ About
 :order: 1
 :date: 2021-04-02 18:26
 :icon: icon-link2
-:summary: 
+:summary:
 :lang: en
 :slug: about
 
@@ -17,6 +17,12 @@ The global `PyLadies <https://pyladies.com/>`__ mentorship group has a focus on 
 
 As a group of women developers who love the Python programming language. We write code by day or night. Some of us hack on Python projects on the side, while others work full-time on Python development. But it doesn't matter. We all just like writing Python code, and that's what brings us together. Are you an experienced female Python developer? Or are you new and need help getting into Python development?
 Please join us!
+
+Gender Policy
+-------------
+
+We believe knowledge is for everyone. At the same time, our events primarily aim to empower women and gender minorities in the tech community. As a result, if you don’t identify as part of either one of these, we request you to be aware of this situation and make your presence discrete, e.g., by coming with a woman or a person from a gender minority to ensure gender balance, and consider that you are not heard more or taking more space than others in discussions and question sections
+
 
 Here's how you can join:
 -------------------------
