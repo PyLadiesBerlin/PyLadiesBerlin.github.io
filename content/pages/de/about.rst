@@ -11,15 +11,7 @@
 Über PyLadies Berlin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PyLadies Berlin ist eine der deutschen Ortsgruppen der weltweiten PyLadies Community. Als begeisterte Programmiererinnen entwickeln wir zusammen unsere Python Kentnisse und möchten dich einladen mit dabei zu sein!
-
-Die globale `PyLadies <https://pyladies.com/>`__ Mentorship Gemeinschaft hat es sich zum Auftrag gemacht Frauen dabei zu unterstützen als aktive Mitglieder die Python-Welt zu gestalten and führende Köpfe in der Python Open-Source Community zu werden. Unsere Mission ist es, zu unterstützen, auszubilden and die Python community diverser, bunter, kreativer zu machen. Durch gemeinschafftliche Initiative, Weiterbildung, Konferenzen, Events and persönliche Treffen.
-PyLadies möchte ein freundliches Unterstützungsnetzwerk für Frauen und eine Brücke zur größeren Python-Welt bieten.
-Wir möchten das gerade Frauen sich in der Programmier-Welt willkommen fühlen und sorgen deswegen dafür, dass unsere Events eine einladende und sicher Umgebung für den Einstieg und die
-!TRANSLATION WIP!
-Wir wollen in einer Welt leben, in der weibliche Perspektiven in der Technik selbstverständlich sind. (from haecksen)
-As a group of women developers who love the Python programming language. We write code by day or night. Some of us hack on Python projects on the side, while others work full-time on Python development. But it doesn't matter. We all just like writing Python code, and that's what brings us together. Are you an experienced female Python developer? Or are you new and need help getting into Python development?
-Schau vorbei und schließe dich uns an!
+PyLadies ist eine internationale Mentoring-Gruppe für marginalisierte Geschlechter, wie z.B., aber nicht beschränkt auf, nicht-binäre Menschen, Trans-Menschen und Frauen in der Technik, mit dem Schwerpunkt, unserer Community zu helfen, aktive Teilnehmer und Führer in der Python-Open-Source-Community zu werden. Alle Könnerstufen sind willkommen!
 
 Geschlechterpolitik
 -------------------
