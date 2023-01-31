@@ -11,7 +11,7 @@
 Über PyLadies Berlin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PyLadies ist eine internationale Mentoring-Gruppe für marginalisierte Geschlechter, wie z.B., aber nicht beschränkt auf nicht-binäre Menschen, Trans-Menschen und Frauen in der Technik mit dem Schwerpunkt unserer Community zu helfen aktive Teilnehmer und Führer in der Python-Open-Source-Community zu werden. Alle Könnerstufen sind willkommen!
+PyLadies ist eine internationale Mentoring-Gruppe für marginalisierte Geschlechter, wie z.B., aber nicht beschränkt auf nicht-binäre Menschen, Trans-Menschen und Frauen in der Technik mit dem Schwerpunkt unserer Community zu helfen aktive Teilnehmer/innen und Leiter/innen in der Python-Open-Source-Community zu werden. Alle Könnerstufen sind willkommen!
 
 Geschlechterpolitik
 -------------------
