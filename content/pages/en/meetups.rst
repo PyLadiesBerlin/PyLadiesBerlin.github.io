@@ -17,16 +17,25 @@ Meetups
 Meetups
 ~~~~~~~
 
-We have monthly meetups with talks and workshop on various python related and development in general and data topics.
+In our monthly Meetup you can look forward to workshops and talks on various
+Python topics, e.g. from the field of software development or data science.
 
-You can find and join upcoming events on our `Meetup group <https://www.meetup.com/PyLadies-Berlin/>`__.
+In addition, we cover basic topics in our setup events that will make your
+start with programming with Python easier.
 
-We do have varying levels in different meetups from novice to expert in specific topics. We always try to
-include a "Non-coding superpower" 10 mins talk in the beginning. Because we believe (tech) life is much more than coding!
+You can find and join upcoming events on our `Meetup group
+<https://www.meetup.com/PyLadies-Berlin/>`__.
+
+We do have varying levels in different meetups from novice to expert in
+specific topics. We often start our events with a 10 minute "Non-coding
+superpower" talk because we believe (tech) life is much more than coding!
 
 Call for speakers
 ~~~~~~~~~~~~~~~~~~
 
-We love to hear what you have to share with the community, from beginners topic to a project you worked on, a hands on session or a non-coding superpower!
+We always welcome new interesting topics that you want to share with the Python
+community ranging from a short 10min presentation of a specific framework to an
+all-day workshop or a presentation of your very own Python project.
 
-Reach out to us via Email or `Slack <https://slackin.pyladies.com>`__.
+Reach out to us via `Email </contact.html>`_ or `Slack
+<https://slackin.pyladies.com>`__.

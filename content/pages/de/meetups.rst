@@ -4,7 +4,7 @@ Meetups
 :order: 2
 :date: 2021-02-28 08:46
 :icon: icon-speech-bubble
-:summary: Pyladies Berlin monthly meetups.
+:summary: Pyladies Berlin Events
 :lang: de
 :slug: meetups
 
@@ -14,21 +14,33 @@ Meetups
         :width: 400px
         :alt: Test Driven Development Pyladies Berlin meetup
 
-
 Meetups
-~~~~~~~
+~~~~~~~~
 
-We have monthly meetups with talks and workshop on various python related and development in general and data topics.
+In unserem monatlichen Meetup kannst du dich auf Workshops und Vorträge zu
+verschiedenen Python Themen z.B. aus dem Bereich Softwareentwicklung oder Data
+Science freuen.
 
-You can find and join upcoming events on our `Meetup group <https://www.meetup.com/PyLadies-Berlin/>`_.
+Außerdem beschäftigen wir uns in unseren Setup-Events mit grundlegenden Themen,
+die dir deinen Start in die Programmierung mit Python erleichtern.
 
-We do have varying levels in different meetups from novice to expert in specific topics. We always try to
-include a "Non-coding superpower" 10 mins talk as tech life and life is much more than coding!
+Unsere aktuellen Events findest du hier: `PyLadies Berlin Meetup group
+<https://www.meetup.com/PyLadies-Berlin/>`_.
 
-Speak in our meetup
+Bei unseren Events findest du Vorträge zu sehr speziellen Themen, aber auch
+Einsteiger-Workshops.
+Unsere Events beginnen wir oft mit einem 10min. "Non-coding superpower"
+Vortrag, da es viele Themen gibt, die den Tech-Alltag bereichern und nichts mit
+Programmierung zu tun haben.
+
+Erzähle uns was!
 ~~~~~~~~~~~~~~~~~~~
 
-We love to hear what you have to share with the community, from beginners topic to a project you worked on
-or a hands on session or a non-coding superpower!
+Wir freuen uns immer über neue interessanten Themen, die du mit der Python
+Community teilen möchtest.
+Angefangen von einer kurzen 10min präsentation einer bestimmten Frameworks bis
+hin zu einem ganztägigen Workshop oder einer Präsentation deines ganz eigenen
+Python Projektes.
 
-Reach out to us via email or slack.
+Kontaktiere uns einfach via `E-Mail </contact.html>`_ oder `Slack
+<https://slackin.pyladies.com>`__.
