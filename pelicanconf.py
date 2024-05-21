@@ -42,6 +42,11 @@ I18N_SUBSITES = {
     'PAGE_PATHS': ['pages/de'],
     'ARTICLE_PATHS': ['blog/de'],
     'LOCALE': 'de_DE'
+  },
+  'es': {
+    'PAGE_PATHS': ['pages/es'],
+    'ARTICLE_PATHS': ['blog/es'],
+    'LOCALE': 'es_ES'
   }
 }
 
@@ -55,11 +60,13 @@ HERO = [
     # for multilanguage support, create a simple dict
     'title': {
       'en':'PyLadies Berlin on YouTube',
-      'de': 'PyLadies Berlin in YouTube'
+      'de':'PyLadies Berlin in YouTube',
+      'es':'PyLadies Berlin en YouTube'
     },
     'text': {
       'en': 'Find recent recodings of workshops and meetups on our YouTube Channel.',
-      'de': 'Aktuelle Videos unserer Workshops und Meetups findest du auf unserem YouTube Channel.'
+      'de': 'Aktuelle Videos unserer Workshops und Meetups findest du auf unserem YouTube Channel.',
+      'es': 'Encuentra las grabaciones recientes de talleres y charlas en nuestro canal de Youtube.',
     },
     'links': [
       {
@@ -75,6 +82,8 @@ HERO = [
     'text': {
       'en': 'Get up to date about PyLadies menthorship, the organizer team and our commitment to the Python community.',
       'de': 'Infos über das PyLadies Mentorship Program, das Organizer-Team und unseren Einsatz für die Python Community.',
+      'es': 'Ponte al día sobre el patrocinio de PyLadies, el equipo organizador y nuestro compromiso con la comunidad Python.',
+      
     },
     'links': [
       {
@@ -89,7 +98,8 @@ HERO = [
     'title': 'Meetups',
     'text': {
       'en': 'Meet the PyLadies community, learn something new about Python and become an active member.',
-      'de': 'Lerne die PyLadies Community kennen, lerne etwas neues über Python und werde ein aktives Mitglied.'
+      'de': 'Lerne die PyLadies Community kennen, lerne etwas neues über Python und werde ein aktives Mitglied.',
+      'es': 'Conoce a la comunidad PyLadies, aprende algo nuevo sobre Python y conviértete en un miembro activo.'
     },
     'links': [
       {
@@ -102,7 +112,8 @@ HERO = [
     'title': 'Python learning resources',
     'text': {
       'eng': 'Find a list of amazing resources for your Python learning journey.',
-      'de': 'Hier findest du eine Liste von Lernmaterial um mehr übers Programmiernen mit Python zu lernen.'
+      'de': 'Hier findest du eine Liste von Lernmaterial um mehr übers Programmiernen mit Python zu lernen.',
+      'es': 'Encuentra una lista de recursos increíbles para tu viaje de aprendizaje de Python',
     },
     'links': [
       {
@@ -126,7 +137,8 @@ ABOUT = {
   # keep it a string if you dont need multiple languages
   'text': {
     'en': 'Learn more about PyLadies Berlin or just drop a message.',
-    'de': 'Ihr wollt mehr erfahren über PyLadies Berlin, dann hinterlasst uns eine Nachricht'
+    'de': 'Ihr wollt mehr erfahren über PyLadies Berlin, dann hinterlasst uns eine Nachricht',
+    'es': 'Obtén más información sobre PyLadies Berlín o envíanos un mensaje.',
   },
   'link': 'contact.html',
   # the address is also taken for google maps
