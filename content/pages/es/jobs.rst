@@ -17,11 +17,11 @@ Trabajos
 
 **¿Estás buscando un trabajo relacionado con Python?**
 
-Echa un vistazo a nuestro `slack`_ en el canal #jobs-europe canal y #jobs (este último canal tiene sobre todo Estados Unidos puestos de trabajo)
+Echa un vistazo a nuestro `slack`_ en el canal #jobs-europe canal y #jobs (este último canal tiene puestos de trabajo en Estados Unidos)
 
 **¿Tu empresa tiene buenos puestos en Python que quieras compartir?**
 
-  - Publica el trabajo directamente en nuestro `slack`_ en el canal #job-europe.
+  - Publica el trabajo directamente en nuestro `slack`_ en el canal #jobs-europe.
 
   - Para trabajos no relacionados con Europa rellena este `formulario <http://bit.ly/pyladies-jobs-feed>`_ y se publicará automáticamente en el canal de slack #jobs.
 

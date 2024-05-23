@@ -4,7 +4,7 @@ Meetups
 :order: 2
 :date: 2024-05-21
 :icon: icon-speech-bubble
-:summary: Meetups mensual de Pyladies Berlin
+:summary: Meetups mensual de PyLadies Berlin
 :lang: es
 :slug: meetups
 
@@ -21,14 +21,12 @@ En nuestro Meetup mensual podrás asistir a talleres y charlas sobre diversos te
 temas relacionados con Python, como el desarrollo de software o la ciencia de datos.
 
 Además, cubrimos temas básicos en nuestros eventos de configuración que harán tu
-empezar a programar con Python.
+empezar a programar con Python más fácil.
 
 Puedes encontrar y unirte a los próximos eventos en nuestro grupo `Meetup
 <https://www.meetup.com/PyLadies-Berlin/>`__.
 
-Tenemos diferentes niveles en los diferentes meetups desde principiante hasta experto en
-temas específicos. A menudo empezamos nuestros eventos con una charla de 10 minutos sobre «superpoderes
-porque creemos que la vida (tecnológica) es mucho más que programar.
+Tenemos diferentes niveles en los diferentes meetups, desde principiantes hasta expertos en temas específicos. A menudo comenzamos nuestros eventos con una charla de 10 minutos sobre un "superpoder sin programar" porque creemos que la vida (tecnológica) es mucho más que programar.
 
 Convocatoria de ponentes
 ~~~~~~~~~~~~~~~~~~~~~~~~
