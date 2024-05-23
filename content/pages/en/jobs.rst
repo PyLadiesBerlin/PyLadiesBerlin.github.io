@@ -19,15 +19,15 @@ Jobs
 
 **Are you looking for a Python related job?**
 
-Checkout out our `slack`_ in #jobs-europe channel and #feed-jobs (this has mostly United States related jobs)
+Checkout out our `slack`_ in #jobs-europe channel and #jobs (this has mostly United States related jobs)
 
 
 
 
 **Does your company have nice Python positions that you want to share?**
 
-  - Post the job directly in our `slack`_ in #job-europe channel.
+  - Post the job directly in our `slack`_ in #jobs-europe channel.
 
-  - For non-europe related jobs fill out this `form <http://bit.ly/pyladies-jobs-feed>`_ and it will be posted automatically in #feed-jobs slack channel.
+  - For non-europe related jobs fill out this `form <http://bit.ly/pyladies-jobs-feed>`_ and it will be posted automatically in #jobs slack channel.
 
 .. _slack: /contact.html
