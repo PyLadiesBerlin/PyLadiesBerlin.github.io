@@ -2,9 +2,9 @@ Resources
 ##########
 
 :order: 3
-:date: 2021-03-21 17:52
+:date: 2024-11-27
 :icon: icon-speech-bubble
-:summary: Pyladies Berlin resources.
+:summary: Bildungsmaterialien.
 :lang: de
 :slug: resources
 
@@ -12,9 +12,7 @@ Resources
 Bildungsmaterialien
 --------------------
 
-Suchen Sie nach Bildungsmaterial? Besuchen Sie unser GitHub-Repository:
-
-`https://github.com/PyLadiesBerlin/resources#readme`_
+Suchen Sie nach Bildungsmaterial? Besuchen Sie unser `GitHub Repository <https://github.com/pyladiesberlin/resources#readme>`_
 
 
 Genderfragen in der Tech-Branche verstehen
@@ -28,14 +26,14 @@ Dieser Abschnitt ist für Sie – egal, ob Sie als Frau in der Tech-Branche tät
 Wichtige Bücher 📚
 ~~~~~~~~~~~~~~~~~~
 
-- Invisible Women: exposing data bias in a world designed for men by Caroline Criado Perez `https://carolinecriadoperez.com/book/invisible-women/`_
-- Race After Technology: Abolitionist Tools for the New Jim Code by Ruha Benjamin `https://www.ruhabenjamin.com/race-after-technology`_
-- Caliban and the Witch Women, The Body And Primitive Accumulation by Silvia Federici `https://www.akpress.org/calibanandthewitch.html`_
-- Hacking Diversity: The Politics of Inclusion in Open Technology Cultures by Christina Dunbar-Hester `https://press.princeton.edu/books/hardcover/9780691182070/hacking-diversity?srsltid=AfmBOoqDrB7RsraNicfAr3Jz72ZvbwKM4ijXdRobUrVQlY7bU3d3WL41`_
+- Invisible Women: exposing data bias in a world designed for men by Caroline Criado Perez `Invisible Women <https://carolinecriadoperez.com/book/invisible-women/>`_
+- Race After Technology: Abolitionist Tools for the New Jim Code by Ruha Benjamin `Race After Technology <https://www.ruhabenjamin.com/race-after-technology>`_
+- Caliban and the Witch: Women, The Body And Primitive Accumulation by Silvia Federici `Caliban and the Witch <https://www.akpress.org/calibanandthewitch.html>`_
+- Hacking Diversity: The Politics of Inclusion in Open Technology Cultures by Christina Dunbar-Hester `Hacking Diversity <https://press.princeton.edu/books/hardcover/9780691182070/hacking-diversity?srsltid=AfmBOoqDrB7RsraNicfAr3Jz72ZvbwKM4ijXdRobUrVQlY7bU3d3WL41>`_
 - Gender Trouble by Judith Butler  `PDF available at <https://selforganizedseminar.wordpress.com/wp-content/uploads/2011/07/butler-gender_trouble.pdf>`_
 
 Videos 🎥
-~~~~~~~~
+~~~~~~~~~
 
 
 
@@ -47,5 +45,5 @@ Artikel 📝
 Web 🌐
 ~~~~~~
 
-- Feminist Killjoys, PhD podcast archive `https://soundcloud.com/eministilljoysh`_
-- Intersectionality Matters! Podcast by Kimberlé Crenshaw `https://www.aapf.org/intersectionality-matters`_
+- Feminist Killjoys, PhD podcast archive `Feminist Killjoys, PhD <https://soundcloud.com/eministilljoysh>`_
+- Intersectionality Matters! Podcast by Kimberlé Crenshaw `Intersectionality Matters! <https://www.aapf.org/intersectionality-matters>`_
