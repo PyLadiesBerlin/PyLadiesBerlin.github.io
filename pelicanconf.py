@@ -6,7 +6,7 @@ import os
 AUTHOR = 'PyLadies Berlin'
 SITENAME = 'PyLadies Berlin'
 SITEDESCRIPTION = 'PyLadies Berlin is a local chapter of PyLadies, an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community.'
-SITEURL = ''
+SITEURL = 'https://berlin.pyladies.com'
 
 # plugins
 PLUGIN_PATHS = ['pelican-plugins']
