@@ -37,6 +37,7 @@ Wichtige Bücher 📚
 Videos 🎥
 ~~~~~~~~
 
+- MasterClass Redefining Feminist series with Gloria Steinem `Redefining Feminism <https://www.masterclass.com/classes/redefining-feminism-with-gloria-steinem-and-noted-co-instructors>`_
 
 
 Artikel 📝
