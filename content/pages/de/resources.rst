@@ -49,4 +49,5 @@ Web 🌐
 ~~~~~~
 
 - Feminist Killjoys, PhD podcast archive `https://soundcloud.com/eministilljoysh`_
+- Catalyst.org bietet mehrere kostenlose und kostenpflichtige Materialien, die sich auf "Arbeitsplätze, die für Frauen funktionieren" konzentrieren, einschließlich `Kostenlose Online-Kurse <https://www.edx.org/school/catalystx>`_
 - Intersectionality Matters! Podcast by Kimberlé Crenshaw `https://www.aapf.org/intersectionality-matters`_
