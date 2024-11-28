@@ -35,15 +35,18 @@ Wichtige Bücher 📚
 Videos 🎥
 ~~~~~~~~~
 
-
+- MasterClass Redefining Feminist series with Gloria Steinem `Redefining Feminism <https://www.masterclass.com/classes/redefining-feminism-with-gloria-steinem-and-noted-co-instructors>`_
+- Tech-Illusionen und die unausgewogene Gesellschaft: Lösungen für eine bessere Zukunft finden - Podiumsdiskussion bei PyCon PyData DE `YouTube-Video <https://www.youtube.com/watch?v=C3Yd6vQaGaQ&list=PLGVZCDnMOq0peDguAzds7kVmBr8avp46K&index=85>`_
 
 Artikel 📝
 ~~~~~~~~~~
 
+- Die Kraft der Schwesternschaft und Verbündeten in Open Source von Paloma Oliveira `Artikel auf Opensource.com <https://opensource.com/article/23/3/power-sisterhood-allyship-open-source>`_
 
 
 Web 🌐
 ~~~~~~
 
+- Catalyst.org bietet mehrere kostenlose und kostenpflichtige Materialien, die sich auf "Arbeitsplätze, die für Frauen funktionieren" konzentrieren, einschließlich `Kostenlose Online-Kurse <https://www.edx.org/school/catalystx>`_
 - Feminist Killjoys, PhD podcast archive `Feminist Killjoys, PhD <https://soundcloud.com/eministilljoysh>`_
 - Intersectionality Matters! Podcast by Kimberlé Crenshaw `Intersectionality Matters! <https://www.aapf.org/intersectionality-matters>`_

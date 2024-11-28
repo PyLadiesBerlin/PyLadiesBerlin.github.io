@@ -37,15 +37,17 @@ Essential Books 📚
 Video 🎥
 ~~~~~~~~
 
-
+- MasterClass Redefining Feminist series with Gloria Steinem `Redefining Feminism <https://www.masterclass.com/classes/redefining-feminism-with-gloria-steinem-and-noted-co-instructors>`_
+- Tech Illusions and the Unbalanced Society: Finding Solutions for a Better Future - panel moderation at PyCon PyData DE `YouTube video <https://www.youtube.com/watch?v=C3Yd6vQaGaQ&list=PLGVZCDnMOq0peDguAzds7kVmBr8avp46K&index=85>`_
 
 Articles 📝
 ~~~~~~~~~~~
 
-
+- The power of sisterhood and allyship in open source by Paloma Oliveira `Article published at opensource.com <https://opensource.com/article/23/3/power-sisterhood-allyship-open-source>`_
 
 Web 🌐
 ~~~~~~
 
+- Catalyst.org has several free and paid materials focusing on "workplace that work for women", including `Free online courses<https://www.edx.org/school/catalystx>`_ 
 - Feminist Killjoys, PhD podcast archive `Feminist Killjoys, PhD <https://soundcloud.com/eministilljoysh>`_
 - Intersectionality Matters! Podcast by Kimberlé Crenshaw `Intersectionality Matters! <https://www.aapf.org/intersectionality-matters>`_
