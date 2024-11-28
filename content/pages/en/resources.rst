@@ -48,6 +48,6 @@ Articles 📝
 Web 🌐
 ~~~~~~
 
-- Catalyst.org has several free and paid materials focusing on "workplace that work for women", including `Free online courses<https://www.edx.org/school/catalystx>`_ 
+- Catalyst.org has several free and paid materials focusing on "workplace that work for women", including `Free online courses <https://www.edx.org/school/catalystx>`_ 
 - Feminist Killjoys, PhD podcast archive `Feminist Killjoys, PhD <https://soundcloud.com/eministilljoysh>`_
 - Intersectionality Matters! Podcast by Kimberlé Crenshaw `Intersectionality Matters! <https://www.aapf.org/intersectionality-matters>`_
