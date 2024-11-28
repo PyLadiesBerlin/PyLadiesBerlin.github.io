@@ -42,10 +42,13 @@ Video 🎥
 ~~~~~~~~
 
 - MasterClass Redefining Feminist series with Gloria Steinem `Redefining Feminism <https://www.masterclass.com/classes/redefining-feminism-with-gloria-steinem-and-noted-co-instructors>`_
+- Ilusiones tecnológicas y la sociedad desequilibrada: Encontrando soluciones para un futuro mejor - moderación de panel en PyCon PyData DE `Video de YouTube <https://www.youtube.com/watch?v=C3Yd6vQaGaQ&list=PLGVZCDnMOq0peDguAzds7kVmBr8avp46K&index=85>`_
+
 
 Articulos 📝
 ~~~~~~~~~~~
 
+- El poder de la hermandad y la alianza en el código abierto por Paloma Oliveira `Artículo en Opensource.com <https://opensource.com/article/23/3/power-sisterhood-allyship-open-source>`_
 
 Web 🌐
 ~~~~~~
