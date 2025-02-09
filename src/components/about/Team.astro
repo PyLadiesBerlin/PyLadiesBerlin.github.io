@@ -1,0 +1,127 @@
+---
+const team = [
+  {
+    name: 'Jessica Greene',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Maren Westermann',
+    image: '/assets/team-1.webp',
+    job: 'Machine Learning Engineer',
+  },
+  {
+    name: 'Öykü Gümüs',
+    image: '/assets/team-1.webp',
+    job: 'Software Engineer',
+  },
+  {
+    name: 'Timna Aversa',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Vanessa Fonseca',
+    image: '/assets/team-1.webp',
+    job: 'Software Engineer',
+  },
+  {
+    name: 'Paloma Oliveira',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Anastasia Mikheeva',
+    image: '/assets/team-1.webp',
+    job: 'Data Science Team Lead',
+  },
+  {
+    name: 'Amelia',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Aya T',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Bettina',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Edi Fortini',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Fan',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Heike Q',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Hilal',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Irena Popova',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'KJ',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Mariana Meireles',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Mika Naylor',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Noa Tamir',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+  {
+    name: 'Cristián',
+    image: '/assets/team-1.webp',
+    job: '',
+  },
+];
+---
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="sm:space-8 space-y-12">
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Meet our team</h2>
+      <ul role="list" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          team.map((item) => (
+            <li class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border px-6 py-8">
+              <div class="space-y-6">
+                <img class="mx-auto h-auto w-32 rounded-full" src={item.image} alt={item.name} />
+                <div class="text-center">
+                  <h3 class="text-lg font-medium">{item.name}</h3>
+                  <p class="text-primary-950/70 dark:text-primary-200/70 text-base">{item.job}</p>
+                </div>
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</section>
