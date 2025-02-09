@@ -72,5 +72,12 @@ const { description, title } = Astro.props;
     </script>
     <!-- flowbite -->
     <script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+    <!-- Persisting the carousel between animations -->
+    <script>
+      import { initFlowbite } from "flowbite";
+      document.addEventListener("astro:after-swap", () => {
+        initFlowbite();
+      });
+    </script>
   </body>
 </html>
