@@ -1,0 +1,16 @@
+---
+import Prose from '../Prose.astro';
+import {Content as Meetup} from '../../pages/home/meetup.mdx';
+---
+<section class="py-16 sm:py-20">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our Meetup</h2>
+      <div class="flex flex-col items-start gap-6 sm:gap-8 lg:col-span-2">
+        <Prose>
+          <Meetup />
+        </Prose>
+      </div>
+    </div>
+  </div>
+</section>

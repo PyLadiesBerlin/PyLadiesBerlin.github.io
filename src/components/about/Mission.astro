@@ -1,4 +1,6 @@
 ---
+import Prose from '../Prose.astro';
+import {Content as Mission} from '../../pages/about/mission.mdx';
 const stats = [
   {
     name: 'Since',
@@ -30,27 +32,9 @@ const stats = [
         <div class="space-y-8 sm:space-y-12">
           <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our mission</h2>
           <div class="space-y-6">
-            <p class="text-primary-950/70 dark:text-primary-white/70 text-base sm:text-lg">
-              PyLadies is an international mentorship group for marginalized
-              genders, such as but not limited to non-binary people, trans people,
-              and women in tech, with a focus on helping our community become
-              active participants and leaders in the Python open-source community.
-              All skill levels are welcome!
-            </p>
-            <p class="text-primary-950/70 dark:text-primary-white/70 text-base sm:text-lg">
-              Founded in 2011 during PyCon PyLadies was a response to the lack of
-              representation and diversity within the Python community.
-            </p>
-            <p class="text-primary-950/70 dark:text-primary-white/70 text-base sm:text-lg">
-              Our mission is to promote, educate and advance a diverse Python
-              community through outreach, education, conferences, events and social
-              gatherings. To learn more about the global community, visit the
-              <a href="https://pyladies.com/">PyLadies website</a>.
-            </p>
-            <p class="text-primary-950/70 dark:text-primary-white/70 text-base sm:text-lg">
-              We expect all participants in our events and community to abide by
-              <a class="text-primary-600 dark:text-primary-400" href="https://pyladies.com/CodeOfConduct">this code of conduct</a>.
-            </p>
+            <Prose>
+              <Mission />
+            </Prose>
           </div>
         </div>
 

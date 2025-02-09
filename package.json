@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@alpinejs/collapse": "3.12.3",
+    "@astrojs/mdx": "^4.0.8",
     "@astrojs/tailwind": "^6.0.0",
     "@astrojs/vercel": "^8.0.6",
     "@fontsource/inter": "5.0.8",
     "@playform/compress": "0.1.7",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/alpinejs": "3.7.2",
     "alpinejs": "3.12.3",
     "astro": "5.2.5",

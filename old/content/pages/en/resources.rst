@@ -18,12 +18,12 @@ Looking for educational material? Visit our `GitHub Repository <https://github.c
 Understanding Gender Issues in Tech
 -----------------------------------
 
-The tech world is full of incredible opportunities, but it also reflects societal challenges—especially when it 
-comes to gender. From representation to workplace dynamics, these challenges affect not only women but also 
+The tech world is full of incredible opportunities, but it also reflects societal challenges—especially when it
+comes to gender. From representation to workplace dynamics, these challenges affect not only women but also
 the entire industry.
 
-Would you like to understand why this matters and how we can build a more inclusive future? 
-This section is for you — whether you're a woman navigating tech or an ally looking to make a difference. 
+Would you like to understand why this matters and how we can build a more inclusive future?
+This section is for you — whether you're a woman navigating tech or an ally looking to make a difference.
 
 Essential Books 📚
 ~~~~~~~~~~~~~~~~~~
@@ -48,6 +48,6 @@ Articles 📝
 Web 🌐
 ~~~~~~
 
-- Catalyst.org has several free and paid materials focusing on "workplace that work for women", including `Free online courses <https://www.edx.org/school/catalystx>`_ 
+- Catalyst.org has several free and paid materials focusing on "workplace that work for women", including `Free online courses <https://www.edx.org/school/catalystx>`_
 - Feminist Killjoys, PhD podcast archive `Feminist Killjoys, PhD <https://soundcloud.com/eministilljoysh>`_
 - Intersectionality Matters! Podcast by Kimberlé Crenshaw `Intersectionality Matters! <https://www.aapf.org/intersectionality-matters>`_
