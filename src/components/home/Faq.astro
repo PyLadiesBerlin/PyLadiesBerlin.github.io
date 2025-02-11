@@ -10,7 +10,7 @@ const features = [
     id: 'faq-2',
     name: 'What is our Gender Policy?',
     description:
-      'We believe knowledge is for everyone. At the same time, our events primarily aim to empower women and gender minorities in the tech community. As a result, if you don’t identify as part of either one of these, we request you to be aware of this situation and make your presence discrete, e.g., by coming with a woman or a person from a gender minority to ensure gender balance, and consider that you are not heard more or taking more space than others in discussions and question sections',
+      'We believe knowledge is for everyone. At the same time, our events primarily aim to empower women and gender minorities in the tech community.<br> As a result, if you don’t identify as part of either one of these, <b>we request you</b> to be aware of this situation and make your presence discrete, e.g., by coming with a woman or a person from a gender minority to ensure gender balance, and consider that you are not heard more or taking more space than others in discussions and question sections',
   },
   {
     id: 'faq-3',
@@ -26,9 +26,15 @@ const features = [
   },
   {
     id: 'faq-5',
-    name: 'How can I help?',
+    name: 'How can I help the community?',
     description:
-      'In case you have time, you can help us by being a mentor, and also with the organization of our events. Let us know!.',
+      'In case you have time, you can help us by being a mentor, and also with the organization of our events. Let us know!. You can check our <a class="text-primary-600 dark:text-primary-400" href="https://berlin.pyladies.com/community-organisation/intro.html">Organizers Documentation here</a>.',
+  },
+  {
+    id: 'faq-6',
+    name: 'Do you have any resources on the gender issues in tech?',
+    description:
+      'Yes!, you can check our <a class="text-primary-600 dark:text-primary-400" href="/resources">Resources section</a> to learn more.',
   },
 ];
 ---
@@ -45,7 +51,7 @@ const features = [
               <summary class="text-sm leading-6 text-gray-900 select-none font-medium text-xl">{feature.name}</summary>
               <div class="mt-3 mb-3 text-sm leading-6 text-gray-600">
                 <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
-                  {feature.description}
+                  <Fragment set:html={feature.description} />
                 </p>
               </div>
             </details>
