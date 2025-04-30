@@ -1,21 +1,24 @@
 ---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+
 import Prose from '../Prose.astro';
-import {Content as Slack} from '../../pages/home/slack.mdx';
 ---
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Join the PyLadies Global Slack</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{t("home.slack_title")}</h2>
       <div class="flex flex-col items-start gap-8 sm:gap-10 lg:col-span-2">
         <Prose>
-          <Slack />
+          <slot name="content">...</slot>
         </Prose>
-
         <a
           href="https://pyladies.slack.com"
           class="bg-primary-600 dark:bg-primary-400/40 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-white inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
         >
-          Go to Slack
+        {t("home.slack_button")}
         </a>
 
       </div>

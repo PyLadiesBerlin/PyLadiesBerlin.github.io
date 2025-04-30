@@ -1,9 +1,15 @@
+---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+---
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 text-center sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-4 sm:gap-6">
-      <h1 class="text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">About PyLadies Berlin</h1>
+      <h1 class="text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">{t("heading.about_title")}</h1>
       <p class="text-primary-950/70 dark:text-primary-200/70 mx-auto max-w-xl text-lg sm:text-xl">
-        An international mentorship group for marginalized genders.
+        {t("heading.about_description")}
       </p>
     </div>
   </div>

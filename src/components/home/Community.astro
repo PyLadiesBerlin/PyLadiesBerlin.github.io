@@ -1,22 +1,24 @@
 ---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+
 const cards = [
   {
     step: '01',
-    name: 'The PyLadies Initiative',
-    description:
-      'We are an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community.',
+    name: 'home.community_initiative_title',
+    description: 'home.community_initiative_content',
   },
   {
     step: '02',
-    name: 'Our Mission',
-    description:
-      'Our mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings.',
+    name: 'home.community_mission_title',
+    description: 'home.community_mission_content',
   },
   {
     step: '03',
-    name: 'How to participate',
-    description:
-      'You can attend our events (in person or online), and participate by being a mentee and a mentor, and remember to always ask questions if something is not clear.',
+    name: 'home.community_participate_title',
+    description: 'home.community_participate_content',
   },
 ];
 ---
@@ -24,15 +26,15 @@ const cards = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-12 sm:gap-16">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our Community</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{t('home.community_title')}</h2>
       <div class="grid gap-8 lg:grid-cols-3">
         {
           cards.map((card) => (
             <div class="bg-primary-500/10 dark:bg-primary-400/60 flex flex-col gap-12 rounded-lg px-6 py-8">
               <div class="flex flex-col gap-4">
-                <h3 class="text-xl font-medium">{card.name}</h3>
+                <h3 class="text-xl font-medium">{t(card.name)}</h3>
                 <p class="text-primary-950/70 dark:text-primary-50/70 text-base sm:text-lg">
-                  {card.description}
+                  {t(card.description)}
                 </p>
               </div>
             </div>

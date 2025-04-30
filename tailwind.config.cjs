@@ -9,24 +9,25 @@ module.exports = {
     './node_modules/flowbite/**/*.js'
   ],
   theme: {
-    colors: {
-      current: 'currentColor',
-      transparent: 'transparent',
-      white: '#ffffff',
-      //primary: colors.rose,
-      primary : {
-          'white':'#ffffff',
-          '50':   '#fafaf9',
-          '100':  '#eecdd2',
-          '200':  '#eeb0ba',
-          '300':  '#ee8f9d',
-          '400':  '#ee6c84',
-          '500':  '#ee496d',
-          '600':  '#ee264d',
-          '700':  '#b51d3b',
-          '800':  '#292524',
-          '900':  '#1c1917',
-          '950':  '#0f172b',
+    extend: {
+      colors: {
+        current: 'currentColor',
+        transparent: 'transparent',
+        white: '#ffffff',
+        primary : {
+            'white':'#ffffff',
+            '50':   '#fafaf9',
+            '100':  '#eecdd2',
+            '200':  '#eeb0ba',
+            '300':  '#ee8f9d',
+            '400':  '#ee6c84',
+            '500':  '#ee496d',
+            '600':  '#ee264d',
+            '700':  '#b51d3b',
+            '800':  '#292524',
+            '900':  '#1c1917',
+            '950':  '#0f172b',
+        },
       },
     },
     fontFamily: {

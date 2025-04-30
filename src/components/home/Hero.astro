@@ -1,4 +1,9 @@
 ---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 const socials = [
   {
     name: 'MeetUp',
@@ -38,7 +43,7 @@ const socials = [
       <div class="flex-1 sm:flex flex-col-2 items-start gap-8 sm:gap-10">
         <div class="flex max-w-xl flex-col items-start gap-4 sm:gap-2">
           <h1 class="dark:text-primary-50 text-4xl font-medium tracking-tight sm:text-5xl lg:text-6xl">
-            The PyLadies Berlin Chapter
+            {t('hero.title')}
           </h1>
 
           <div>
@@ -66,13 +71,13 @@ const socials = [
           }
           </div>
           <p class="text-primary-950/70 dark:text-primary-white/70 text-lg sm:text-xl pb-5">
-            An International mentorship group for marginalized genders.
+            {t('hero.description')}
           </p>
           <a
             href="https://meetup.com/PyLadies-Berlin"
             class="bg-primary-600 dark:bg-primary-400/60 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-white inline-flex items-center justify-center rounded-lg border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
           >
-          Check our events
+            {t('hero.button')}
           </a>
         </div>
         <div id="default-carousel" class="relative w-full hidden overflow-hidden sm:inline" data-carousel="slide">

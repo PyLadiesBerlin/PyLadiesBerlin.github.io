@@ -1,17 +1,21 @@
 ---
 import Prose from '../Prose.astro';
-import {Content as Mission} from '../../pages/about/mission.mdx';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+
 const stats = [
   {
-    name: 'Since',
+    name: 'stats.since',
     value: '2011',
   },
   {
-    name: 'Members',
+    name: 'stats.members',
     value: '3000+',
   },
   {
-    name: 'Events',
+    name: 'stats.events',
     value: '170+',
   },
 ];
@@ -30,10 +34,10 @@ const stats = [
       <div class="flex flex-col gap-10">
         <!-- Mission description -->
         <div class="space-y-8 sm:space-y-12">
-          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our mission</h2>
+          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{t("about.mission_title")}</h2>
           <div class="space-y-6">
             <Prose>
-              <Mission />
+              <slot name="mission">...</slot>
             </Prose>
           </div>
         </div>
@@ -43,7 +47,7 @@ const stats = [
           {
             stats.map((stat) => (
               <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
-                <dt class="text-base">{stat.name}</dt>
+                <dt class="text-base">{t(stat.name)}</dt>
                 <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
               </div>
             ))

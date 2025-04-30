@@ -1,0 +1,18 @@
+---
+import ResourcesInfo from '@components/resources/ResourcesInfo.astro';
+import Layout from '@layouts/Layout.astro';
+
+import {Content as Intro} from '../../pages/en/resources/intro.mdx';
+import {Content as GenderIssues} from '../../pages/en/resources/genderissues.mdx';
+
+---
+
+<Layout
+  description="An International mentorship group for marginalized genders."
+  title="PyLadies Berlin · Resources"
+>
+  <ResourcesInfo>
+    <Fragment slot="intro"><Intro/></Fragment>
+    <Fragment slot="genderissues"><GenderIssues/></Fragment>
+  </ResourcesInfo>
+</Layout>

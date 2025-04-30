@@ -1,84 +1,44 @@
 ---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+
 const team = [
   {
     name: 'Jessica Greene',
-    image: '/assets/team-1.webp',
-    job: '',
+    image: '/assets/jessica.jpeg',
+    job: 'Senior Machine Learning Engineer',
   },
   {
     name: 'Maren Westermann',
-    image: '/assets/team-1.webp',
-    job: 'Machine Learning Engineer',
+    image: '/assets/maren.jpeg',
+    job: 'Senior Machine Learning Engineer',
   },
   {
     name: 'Öykü Gümüs',
-    image: '/assets/team-1.webp',
+    image: '/assets/oeykue.jpeg',
     job: 'Software Engineer',
   },
   {
     name: 'Timna Aversa',
-    image: '/assets/team-1.webp',
-    job: '',
+    image: '/assets/timna.jpeg',
+    job: 'Data Engineer',
   },
   {
     name: 'Vanessa Fonseca',
-    image: '/assets/team-1.webp',
-    job: 'Software Engineer',
+    image: '/assets/vanessa.jpeg',
+    job: 'People Lead',
   },
   {
     name: 'Paloma Oliveira',
-    image: '/assets/team-1.webp',
-    job: '',
+    image: '/assets/paloma.jpeg',
+    job: 'FOSS Advocate',
   },
   {
     name: 'Anastasia Mikheeva',
-    image: '/assets/team-1.webp',
+    image: '/assets/anastasia.jpeg',
     job: 'Data Science Team Lead',
-  },
-  {
-    name: 'Amelia',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Aya T',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Bettina',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Edi Fortini',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Fan',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Heike Q',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Hilal',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Irena Popova',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'KJ',
-    image: '/assets/team-1.webp',
-    job: '',
   },
   {
     name: 'Mariana Meireles',
@@ -86,19 +46,9 @@ const team = [
     job: '',
   },
   {
-    name: 'Mika Naylor',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
-    name: 'Noa Tamir',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
     name: 'Cristián',
-    image: '/assets/team-1.webp',
-    job: '',
+    image: '/assets/cristian.jpeg',
+    job: 'Senior R&D Manager',
   },
 ];
 ---
@@ -106,7 +56,7 @@ const team = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="sm:space-8 space-y-12">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Meet our team</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{t("about.team_title")}</h2>
       <ul role="list" class="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-4">
         {
           team.map((item) => (

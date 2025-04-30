@@ -1,3 +1,9 @@
+---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+---
 <section class="py-16 sm:py-20" id="contact">
   <div class="mx-auto max-w-2xl px-4 text-center sm:px-6 lg:max-w-7xl lg:px-8">
     <div
@@ -5,18 +11,18 @@
     >
       <div class="flex flex-col gap-4 sm:gap-6">
         <h2 class="mx-auto max-w-sm text-3xl font-medium sm:text-4xl">
-          Let's make PyLadies amazing together
+          {t('cta.title')}
         </h2>
         <p class="text-primary-950/70 dark:text-primary-200/70 mx-auto max-w-2xl text-lg">
-          Do you have questions or want to write us? drop us a message!
+          {t('cta.description')}
         </p>
       </div>
       <a
         href="mailto:berlin@pyladies.com"
         class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
       >
-        Contact us via email
-      </a>
+        {t('cta.button')}
+    </a>
     </div>
   </div>
 </section>
