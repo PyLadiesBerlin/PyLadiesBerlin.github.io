@@ -1,5 +1,10 @@
 ---
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import Bluesky from '@components/socials/Bluesky.astro';
+import Github from '@components/socials/Github.astro';
+import Linkedin from '@components/socials/Linkedin.astro';
+import Mastodon from '@components/socials/Mastodon.astro';
+
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang)
@@ -41,14 +46,13 @@ const team = [
     job: 'Data Science Team Lead',
   },
   {
-    name: 'Mariana Meireles',
-    image: '/assets/team-1.webp',
-    job: '',
-  },
-  {
     name: 'Cristián',
     image: '/assets/cristian.jpeg',
     job: 'Senior R&D Manager',
+    linkedin: 'https://linkedin.com/in/cmaureir',
+    bluesky: 'https://bsky.app/profile/cmaureir.bsky.social',
+    github: 'https://github.com/cmaureir',
+    mastodon: 'https://mastodon.social/@cmaureir',
   },
 ];
 ---
@@ -64,8 +68,14 @@ const team = [
               <div class="space-y-6">
                 <img class="mx-auto h-auto w-32 rounded-full" src={item.image} alt={item.name} />
                 <div class="text-center">
-                  <h3 class="text-lg font-medium">{item.name}</h3>
-                  <p class="text-primary-950/70 dark:text-primary-200/70 text-base">{item.job}</p>
+                  <h3 class="text-xl font-medium">{item.name}</h3>
+                  <p class="text-primary-950/70 dark:text-primary-200/70 text-base pb-5">{item.job}</p>
+                  <div class="flex justify-center gap-2">
+                    { item.github && <Github href={item.github} /> }
+                    { item.linkedin && <Linkedin href={item.linkedin} /> }
+                    { item.bluesky && <Bluesky href={item.bluesky} /> }
+                    { item.mastodon && <Mastodon href={item.mastodon} /> }
+                  </div>
                 </div>
               </div>
             </li>
