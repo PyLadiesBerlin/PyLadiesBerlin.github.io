@@ -1,40 +1,33 @@
 ---
-const features = [
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+
+const faqs = [
   {
-    id: 'faq-1',
-    name: 'What is PyLadies Berlin?',
-    description:
-      'PyLadies is an international mentorship group for marginalized genders, such as but not limited to non-binary people, trans people, and women in tech, with a focus on helping our community become active participants and leaders in the Python open-source community. All skill levels are welcome!',
+    question: 'faq1.question',
+    answer: 'faq1.answer',
   },
   {
-    id: 'faq-2',
-    name: 'What is our Gender Policy?',
-    description:
-      'We believe knowledge is for everyone. At the same time, our events primarily aim to empower women and gender minorities in the tech community.<br> As a result, if you don’t identify as part of either one of these, <b>we request you</b> to be aware of this situation and make your presence discrete, e.g., by coming with a woman or a person from a gender minority to ensure gender balance, and consider that you are not heard more or taking more space than others in discussions and question sections',
+    question: 'faq2.question',
+    answer: 'faq2.answer',
   },
   {
-    id: 'faq-3',
-    name: 'How often do you have events?',
-    description:
-      'We do monthly events, and are mostly in-person. In some specific cases, we might have additional events.',
+    question: 'faq3.question',
+    answer: 'faq3.answer',
   },
   {
-    id: 'faq-4',
-    name: 'I am starting, can I attend the events?',
-    description:
-      'Yes!, everyone is welcomed, independently of their level. In most sessions, we have different level talks, so you will be able to follow the contents.',
+    question: 'faq4.question',
+    answer: 'faq4.answer',
   },
   {
-    id: 'faq-5',
-    name: 'How can I help the community?',
-    description:
-      'In case you have time, you can help us by being a mentor, and also with the organization of our events. Let us know!. You can check our <a class="text-primary-600 dark:text-primary-400" href="https://berlin.pyladies.com/community-organisation/intro.html">Organizers Documentation here</a>.',
+    question: 'faq5.question',
+    answer: 'faq5.answer',
   },
   {
-    id: 'faq-6',
-    name: 'Do you have any resources on the gender issues in tech?',
-    description:
-      'Yes!, you can check our <a class="text-primary-600 dark:text-primary-400" href="/resources">Resources section</a> to learn more.',
+    question: 'faq6.question',
+    answer: 'faq6.answer',
   },
 ];
 ---
@@ -42,16 +35,16 @@ const features = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Frequently Asked Question</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{ t('faqs.title') }</h2>
       <div class="lg:col-span-2">
       {
-        features.map((feature, index) => (
+        faqs.map((faq, index) => (
           <div class="border-b border-primary-white/10 px-4 transition">
             <details class="rounded-lg border border-transparent p-6 open:border-primary-900/40 dark:open:border-primary-white/50">
-              <summary class="text-sm leading-6 text-gray-900 select-none font-medium text-xl">{feature.name}</summary>
+              <summary class="text-sm leading-6 text-gray-900 select-none font-medium text-xl">{t(faq.question)}</summary>
               <div class="mt-3 mb-3 text-sm leading-6 text-gray-600">
                 <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
-                  <Fragment set:html={feature.description} />
+                  <Fragment set:html={t(faq.answer)} />
                 </p>
               </div>
             </details>

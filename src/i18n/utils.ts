@@ -73,7 +73,7 @@ export const localizePath = (
   let flatRoutes = {};
   let showDefaultLocale = false;
   const { defaultLocale } = "en";
-  let locales: string[] = ["en", "es"];
+  let locales: string[] = ["en", "es", "de"];
   const { trailingSlash } = "ignore"
 
   //if (!locales.includes(locale)) {

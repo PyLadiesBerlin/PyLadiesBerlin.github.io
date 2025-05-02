@@ -12,7 +12,7 @@ export default defineConfig({
   site: 'https://berlin.pyladies.com',
   integrations: [tailwind(), compress(), mdx(), icon()],
   i18n: {
-    locales: ["en", "en"],
+    locales: ["en", "es", "de"],
     defaultLocale: "en",
     routing: {
       prefixDefaultLocale: false
