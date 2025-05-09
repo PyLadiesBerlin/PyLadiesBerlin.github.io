@@ -1,3 +1,0 @@
-pelican[Markdown]==4.7.2
-beautifulsoup4==4.9.1
-markdown

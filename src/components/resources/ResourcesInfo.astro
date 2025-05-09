@@ -1,0 +1,33 @@
+---
+import Prose from '../Prose.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang)
+---
+
+<section class="py-8 sm:py-10">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h1 class="text-4xl font-medium tracking-tight sm:text-5xl mb-3">{t('resources.title')}</h1>
+    <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{t('resources.material')}</h2>
+      <div class="flex flex-col items-start gap-8 sm:gap-10 lg:col-span-2">
+        <Prose>
+          <slot name="intro">...</slot>
+        </Prose>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-8 sm:py-10">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">{t('resources.gender_issues')}</h2>
+      <div class="flex flex-col items-start gap-8 sm:gap-10 lg:col-span-2">
+        <Prose>
+          <slot name="genderissues">...</slot>
+        </Prose>
+      </div>
+    </div>
+  </div>
+</section>

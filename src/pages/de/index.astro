@@ -1,0 +1,28 @@
+---
+import Slack from '@components/home/Slack.astro';
+import Meetup from '@components/home/Meetup.astro';
+import Cta from '@components/home/Cta.astro';
+import Faq from '@components/home/Faq.astro';
+import Hero from '@components/home/Hero.astro';
+import Community from '@components/home/Community.astro';
+import Layout from '@layouts/Layout.astro';
+
+import {Content as SlackContent} from '@pages/de/home/slack.mdx';
+import {Content as MeetupContent} from '@pages/de/home/meetup.mdx';
+---
+
+<Layout
+  description="Eine internationale Mentorengruppe für marginalisierte Geschlechter"
+  title="Startseite · PyLadies Berlin"
+>
+  <Hero />
+  <Community />
+  <Faq />
+  <Slack>
+    <Fragment slot="content"><SlackContent/></Fragment>
+  </Slack>
+  <Meetup>
+    <Fragment slot="content"><MeetupContent/></Fragment>
+  </Meetup>
+  <Cta />
+</Layout>
