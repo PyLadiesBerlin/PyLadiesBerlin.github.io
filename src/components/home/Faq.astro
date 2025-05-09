@@ -41,9 +41,9 @@ const faqs = [
         faqs.map((faq, index) => (
           <div class="border-b border-primary-white/10 px-4 transition">
             <details class="rounded-lg border border-transparent p-6 open:border-primary-900/40 dark:open:border-primary-white/50">
-              <summary class="text-sm leading-6 text-gray-900 select-none font-medium text-xl">{t(faq.question)}</summary>
+              <summary class="text-sm leading-6 text-gray-900 dark:text-white select-none font-medium text-xl">{t(faq.question)}</summary>
               <div class="mt-3 mb-3 text-sm leading-6 text-gray-600">
-                <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
+                <p class="text-primary-950/70 dark:text-white text-base">
                   <Fragment set:html={t(faq.answer)} />
                 </p>
               </div>
